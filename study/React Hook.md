@@ -24,6 +24,14 @@
 
 
 
+>저의 경우에는 **state** 나 **라이프사이클 API** 를 **전혀 사용하지 않을 때**, 그리고 해당 컴포넌트는 자체 기능은 따로 없고 **props 가 들어가면 뷰가 나온다는 것**을 명시하기 위해 사용합니다.
+>
+>특히, Redux 를 사용하여 컴포넌트들을 구성 할 때, **Container 컴포넌트** (혹은 Smart, 컴포넌트) 는 **클래스형** 컴포넌트를 사용하고, **Presentational 컴포넌트** (혹은, Dumb 컴포넌트) 는 **함수형** 컴포넌트를 사용합니다.
+>
+>[by Velopert](https://velopert.com/2994)
+
+
+
 ## React Hook
 
 - Functional Component 에서 state 관리 및 lifecycle API의 기능을 구현 가능하게 해줌.
